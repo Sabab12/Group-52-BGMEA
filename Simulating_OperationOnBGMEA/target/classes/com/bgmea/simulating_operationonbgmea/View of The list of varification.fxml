@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.bgmea.simulating_operationonbgmea.ViewTheListOfPendingVarificationController">
+   <children>
+      <TableView layoutX="65.0" layoutY="91.0" prefHeight="228.0" prefWidth="434.0">
+        <columns>
+          <TableColumn prefWidth="61.0" text="Serio No" />
+          <TableColumn minWidth="0.0" prefWidth="415.0" text="Company Name" />
+        </columns>
+      </TableView>
+      <Text fontSmoothingType="LCD" layoutX="28.0" layoutY="32.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Varify the list" wrappingWidth="115.876953125">
+         <font>
+            <Font name="System Bold Italic" size="17.0" />
+         </font>
+      </Text>
+      <Text layoutX="109.0" layoutY="67.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Clcik Any of the list below to See if they are valid for your Organization or not!" wrappingWidth="413.09765625" />
+      <Button layoutX="126.0" layoutY="339.0" mnemonicParsing="false" onAction="#viewFulldataOfSelectedUser" prefHeight="35.0" prefWidth="313.0" text="Click here to View the Full List of Selected Company" />
+   </children>
+</AnchorPane>
