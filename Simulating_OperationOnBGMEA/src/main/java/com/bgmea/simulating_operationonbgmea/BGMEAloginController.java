@@ -11,6 +11,7 @@ public class BGMEAloginController
 {
     @javafx.fxml.FXML
     public void initialize() {
+
     }
 
     @Deprecated
