@@ -20,7 +20,7 @@
             <Image url="@BGMEA_Logo.jpg" />
          </image>
       </ImageView>
-      <TextField layoutX="170.0" layoutY="122.0" promptText="Gmail/UserID" />
+      <TextField fx:id="userIdTextField" layoutX="170.0" layoutY="122.0" promptText="Gmail/UserID" />
       <Text fontSmoothingType="LCD" layoutX="44.0" layoutY="140.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-stroke-width: 12;" styleClass="bg color" text="Gmail/UserID">
          <font>
             <Font name="Arial Black" size="15.0" />
@@ -31,8 +31,8 @@
             <Font name="Arial Black" size="15.0" />
          </font>
       </Text>
-      <PasswordField layoutX="170.0" layoutY="178.0" promptText="Password" />
-      <ComboBox layoutX="379.0" layoutY="166.0" prefWidth="150.0" />
+      <PasswordField fx:id="passwordTextFirld" layoutX="170.0" layoutY="178.0" promptText="Password" />
+      <ComboBox fx:id="groupComboBox" layoutX="379.0" layoutY="166.0" prefWidth="150.0" />
       <Text layoutX="156.0" layoutY="31.0" strokeType="OUTSIDE" strokeWidth="0.0" text="MADE IN BANGLADESH WITH PRIDE" wrappingWidth="224.69921875">
          <font>
             <Font name="Book Antiqua" size="24.0" />
@@ -43,7 +43,7 @@
             <Font name="Arial Black" size="12.0" />
          </font>
       </Text>
-      <Button layoutX="171.0" layoutY="240.0" mnemonicParsing="false" prefHeight="38.0" prefWidth="274.0" style="-fx-background-color: #455a64;" text="LOG IN">
+      <Button layoutX="171.0" layoutY="240.0" mnemonicParsing="false" onAction="#logInOnActionButton" prefHeight="38.0" prefWidth="274.0" style="-fx-background-color: #455a64;" text="LOG IN">
          <font>
             <Font name="System Bold" size="20.0" />
          </font>

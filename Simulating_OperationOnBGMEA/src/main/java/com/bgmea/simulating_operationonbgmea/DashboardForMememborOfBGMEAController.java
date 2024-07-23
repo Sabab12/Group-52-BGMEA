@@ -14,7 +14,7 @@ public class DashboardForMememborOfBGMEAController
     @javafx.fxml.FXML
     public void payYourBillsOnButtonClicked(ActionEvent actionEvent) {
         try {
-            FXMLLoader fxmlLoader = new FXMLLoader(HelloApplication.class.getResource("PaymentForMemberOfBGMEA.fxml"));
+            FXMLLoader fxmlLoader = new FXMLLoader(RunApplication.class.getResource("PaymentForMemberOfBGMEA.fxml"));
             Scene nextScene = new Scene(fxmlLoader.load());
             Stage nextStage= new Stage();
             nextStage.setTitle("Sign Up");

@@ -15,7 +15,7 @@ public class ViewTheListOfPendingVarificationController
     public void viewFulldataOfSelectedUser(ActionEvent actionEvent) {
 
         try {
-            FXMLLoader fxmlLoader = new FXMLLoader(HelloApplication.class.getResource("data varification list valid or not valid.fxml"));
+            FXMLLoader fxmlLoader = new FXMLLoader(RunApplication.class.getResource("data varification list valid or not valid.fxml"));
             Scene nextScene = new Scene(fxmlLoader.load());
             Stage nextStage= new Stage();
             nextStage.setTitle("Sign Up");

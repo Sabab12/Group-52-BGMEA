@@ -61,7 +61,7 @@
                         <id>default-cli</id>
                         <configuration>
                             <mainClass>
-                                com.bgmea.simulating_operationonbgmea/com.bgmea.simulating_operationonbgmea.HelloApplication
+                                com.bgmea.simulating_operationonbgmea/com.bgmea.simulating_operationonbgmea.RunApplication
                             </mainClass>
                             <launcher>app</launcher>
                             <jlinkZipName>app</jlinkZipName>
